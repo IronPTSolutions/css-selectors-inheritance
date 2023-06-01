@@ -1,0 +1,28 @@
+h1 {
+  color: red;
+  border-bottom: 1px solid black;
+}
+
+.card {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+  margin-bottom: 2px;
+}
+
+.card .card-title {
+  color: green;
+  margin: 0;
+}
+
+.card p {
+  color: pink;
+}
+
+.card > p + p {
+  color: blue;
+}
+
+input[type="text"] {
+  border-color: blueviolet;
+}
